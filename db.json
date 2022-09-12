@@ -1,16 +1,236 @@
 {
-  "posts":[
-    {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
-    {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
-    }
-  ]
+	"products": [
+		{
+			"id": 1,
+			"title": "The Shirt Dress",
+			"price": "98",
+			"category": "dresses",
+			"description": "The Shirtdress features classic shirt detailing with a point collar, button-front closure and chest pockets. Perfectly oversized with short sleeves and an easy high-low shirt tail hemline—so you know it’s ultra-comfortable. Pair this with sneakers for an instantly successful outfit.",
+			"image": "https://images.unsplash.com/photo-1617019114583-affb34d1b3cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDQwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
+		},
+		{
+			"id": 2,
+			"title": "Sunday Dress",
+			"price": "78",
+			"catefory": "dresses",
+			"description": "Made of light, breathable linen, the Linen Workwear Dress features a classic notched collar, a clean button front, relaxed short sleeves, utility-inspired patch pockets, handy side pockets, and a cool, oversized fit.",
+			"image": "https://images.unsplash.com/photo-1585487000143-9bcec9b8e483?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDI1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
+		},
+		{
+			"id": 3,
+			"title": "Flutter Dress",
+			"price": "109",
+			"category": "dresses",
+			"description": "The perfect combination of gathered neckline, ultra puffy sleeves—nipped in at the hem, plus large front pockets, it’s both playful and pragmatic. Made of organic seersucker cotton, it hits just above the knee in an A-line silhouette.",
+			"image": "https://images.unsplash.com/photo-1574655563118-3e3eab32015d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDQxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
+		},
+		{
+			"id": 4,
+			"title": "The Mini Dress",
+			"price": "129",
+			"category": "dresses",
+			"description": "The Mini Dress features a ribbed crew neckline, fitted long sleeves, an easy above-the-knee length, and a form-flattering fit throughout. Plus, it’s made of textured fine-rib cotton with a touch of stretch, so it’s comfortable, ultra-breathable, and hugs you in all the right places.",
+			"image": "https://images.unsplash.com/photo-1592020051126-c240d2aaa98b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDM3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
+		},
+		{
+			"id": 5,
+			"title": "The Easy Short",
+			"price": "50",
+			"category": "bottoms",
+			"description": "The Easy Short is comfortable from hip to hem, thanks to its lightweight cotton twill fabric, breathable silhouette, and pull-on waistband. It’s a longer take on our Easy Short-Short—and it’s just as fuss-free.",
+			"image": "https://images.unsplash.com/photo-1598522325074-042db73aa4e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDI0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
+		},
+		{
+			"id": 6,
+			"title": "The Easy Jogger",
+			"price": "98",
+			"category": "bottoms",
+			"description": "The Easy Jogger is comfortable from hip to hem, thanks to its banded waist and ankle cuffs, adjustable drawcord, roomy leg shape, and snap button closure at the cuff. Plus, it’s made of lightweight organic twill that looks polished, but still feels like a sweatpant.",
+			"image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDM0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
+		},
+		{
+			"id": 7,
+			"title": "The Linen Pant",
+			"price": "98",
+			"category": "bottoms",
+			"description": "The Linen Pant is comfortable from hip to hem, thanks to its lightweight cotton twill fabric, breathable silhouette, and pull-on waistband. Because putting on pants shouldn’t be hard.",
+			"image": "https://images.unsplash.com/photo-1603344797033-f0f4f587ab60?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDMwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
+		},
+		{
+			"id": 8,
+			"title": "The Utility Pant",
+			"price": "109",
+			"category": "bottoms",
+			"description": "Made of lightweight cotton twill with just a touch of stretch, the Utility Barrel Pant is complete with a waist-nipping high rise, a cool curved leg, and an easy cropped length. Plus, it has utilitarian details, like accent stitching and patch pockets for a craftsman-inspired look.",
+			"image": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=946&q=80"
+		},
+		{
+			"id": 9,
+			"title": "The Skinny Pant",
+			"price": "98",
+			"category": "bottoms",
+			"description": "Featuring a figure-flattering fit, The Skinny Pant now comes served as a mid-rise jean. A classic skinny silhouette that hits just below the belly button, these jeans hug in all the right places. And, there’s enough stretch to keep them comfortable while still looking exactly like jeans.",
+			"image": "https://images.unsplash.com/photo-1618554754947-e01d5ce3c549?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDI3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
+		},
+		{
+			"id": 10,
+			"title": "The Wool Pant",
+			"price": "109",
+			"category": "bottom",
+			"description": "Wool-blend herringbone brings sophistication and subtle texture to these cropped pants, which are designed with menswear-inspired tailoring details, including crisp creases at each leg and rolled cuffs. Cut for a breezy wide-leg silhouette, this style features a high rise for a flattering fit.",
+			"image": "https://images.unsplash.com/photo-1551854838-212c50b4c184?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDMzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
+		},
+		{
+			"id": 11,
+			"title": "The Baggy Jean",
+			"price": "98",
+			"category": "bottom",
+			"description": "Featuring our signature Way-High Waist and a wide leg opening for a looser fit, The Baggy Jean is made of 60% Organic Cotton and 40% TENCEL™ Lyocell with REFIBRA™ technology, so it uses less water and has reduced chemical usage in its production. The TENCEL™ Lyocell fiber is 100% bio-based and comes from upcycled cotton and FSC-certified, sustainably sourced wood pulp. Because of the innovative fabric blend, these jeans are extra soft to the touch, you’ll forget you’re wearing denim.",
+			"image": "https://images.unsplash.com/photo-1610241532145-96771e5088e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80"
+		},
+		{
+			"id": 12,
+			"title": "The Button-Up Shirt",
+			"price": "69",
+			"category": "tops",
+			"description": "Made from high-twist, 100% cotton yarn in a traditional twill weave, this drapey shirt has an extra-smooth feel you usually get from decades of wear—in a roomy, slightly oversized fit that’s easy to dress up with heels, or dress down with jeans. It’s that perfect button-down you can never find, found.",
+			"image": "https://images.unsplash.com/photo-1627056675442-35f1c1ca2d54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDIwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
+		},
+		{
+			"id": 13,
+			"title": "The Tee",
+			"price": "39",
+			"category": "tops",
+			"description": "The Organic Cotton Crew features a boyish cut with a slim, feminine fit. Plus, it’s made of lightweight organic cotton, which makes it ultra-breathable and soft to the touch. Go on—revamp your basics.",
+			"image": "https://images.pexels.com/photos/6311475/pexels-photo-6311475.jpeg?auto=compress&cs=tinysrgb&w=800"
+		},
+		{
+			"id": 14,
+			"title": "The Silky Top",
+			"price": "69",
+			"category": "tops",
+			"description": "Polished and easy, the Clean Silk Relaxed Shirt has a traditional point collar and a round hem that looks just as good worn loose as it does tucked in. Plus, it’s made of our eco-conscious Clean Silk, for more beauty and less waste.",
+			"image": "https://images.unsplash.com/photo-1548778943-5bbeeb1ba6c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTMyfHxjbG90aGluZyUyMG1vZGVsJTIwc2hpcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+		},
+		{
+			"id": 15,
+			"title": "The Trench Coat",
+			"price": "209",
+			"category": "outerwear",
+			"description": "It features storm flaps, gathered detail at the shoulders, and a high back slit. Wear it with a belt for a more fitted look or alone for a loose A-line silhouette.",
+			"image": "https://images.unsplash.com/photo-1618244985759-a8a1dc26bce3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDE4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=900&q=60"
+		},
+		{
+			"id": 16,
+			"title": "The Chiffon Dress",
+			"price": "209",
+			"category": "dresses",
+			"description": "An essential below-the-knee slip dress in the perfect wear-everywhere fabric—our own wrinkle-resistant, drapey Japanese GoWeave.",
+			"image": "https://images.unsplash.com/photo-1534534734151-83bc15801803?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDM1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=900&q=60"
+		},
+		{
+			"id": 17,
+			"title": "The Easy Short",
+			"price": "59",
+			"category": "bottoms",
+			"description": "Reminiscent of ’70s summer camp threads, the Retro Jersey Short features an easy elastic waist, an extra-high rise, handy side pockets, a back patch pocket, a 3.5cm inseam, and a relaxed fit. Plus, it’s made of 100% organic jersey that’s light, breathable, and perfect for warm-weather days.",
+			"image": "https://burst.shopifycdn.com/photos/woman-dressed-in-white-leans-against-a-wall.jpg?width=746&format=pjpg&exif=1&iptc=1"
+		},
+		{
+			"id": 18,
+			"title": "The Linen Top",
+			"price": "78",
+			"category": "tops",
+			"description": "The Linen Top features an elevated neckline with gathered detailing, long voluminous sleeves, a rounded hem, and an elegant, drapey shape. Plus, it’s made of plush double-gauze cotton to keep things cozy without added bulk. Perfect for those days you’d rather stay in your PJs, but can’t.",
+			"image": "https://burst.shopifycdn.com/photos/young-woman-in-casual-fashion.jpg?width=746&format=pjpg&exif=1&iptc=1"
+		},
+		{
+			"id": 19,
+			"title": "The Biker Jacket",
+			"price": "209",
+			"category": "outerwear",
+			"description": "Made of light, breathable cotton, the Bomber Jacket features a wide ribbed neckline, a utility-inspired shoulder pocket, a two-way zip front, handy side pockets, and a slightly oversized fit for a cool, classic look. The best part? It looks good over anything.",
+			"image": "https://burst.shopifycdn.com/photos/leather-jacket-and-tea.jpg?width=746&format=pjpg&exif=1&iptc=1"
+		},
+		{
+			"id": 20,
+			"title": "The Jean Jacket",
+			"price": "129",
+			"category": "outerwear",
+			"description": "The Modern Jean Jacket features a point collar and a classic button front, piped patch pockets, contrast topstitching, handy side pockets, and a snug fit. The best part? It’s made of our cleanest denim fabric yet.",
+			"image": "https://burst.shopifycdn.com/photos/blonde-woman-in-denim.jpg?width=746&format=pjpg&exif=1&iptc=1"
+		},
+		{
+			"id": 21,
+			"title": "The Peacoat",
+			"price": "209",
+			"category": "outerwear",
+			"description": "The Peacoat features a notched collar, a double-breasted front, two handy side pockets, a center zip, and a boxy, oversized shape. Plus, it’s made of soft recycled wool, which makes it extra warm and better for the planet.",
+			"image": "https://burst.shopifycdn.com/photos/woman-walking-on-fall-city-streets.jpg?width=746&format=pjpg&exif=1&iptc=1"
+		},
+		{
+			"id": 22,
+			"title": "The Paris Tee",
+			"price": "78",
+			"category": "tops",
+			"description": "Featuring a subtle boat neck, a relaxed dropped shoulder, and an easy boxy fit, the Modern Breton Tee takes all of the time-honored details of a sailor shirt and adds a contemporary spin. Plus, it’s made of 0.6 oz cotton in a dense, durable knit, which means it’ll only get softer with wear.",
+			"image": "https://burst.shopifycdn.com/photos/a-model-in-khaki-trousers-and-a-striped-t-shirt.jpg?width=746&format=pjpg&exif=1&iptc=1"
+		},
+		{
+			"id": 23,
+			"title": "The Cotton Shirt",
+			"price": "79",
+			"category": "tops",
+			"description": "We took the same fabric we use for our men’s oxfords and made a modern, relaxed version just for you. Tucked in or out, unbuttoned or buttoned—it’s an everyday classic.",
+			"image": "https://burst.shopifycdn.com/photos/woman-looking-away.jpg?width=746&format=pjpg&exif=1&iptc=1"
+		},
+		{
+			"id": 24,
+			"title": "The Summer Sweater",
+			"price": "109",
+			"category": "tops",
+			"description": "The Cotton Summer Sweater Tank features an easy, lightweight, sleeveless vest silhouette (now in classic stripes) with low armholes and a crewneck. Made with 100% organic cotton for breathability and a relaxed, put-together fit.",
+			"image": "https://burst.shopifycdn.com/photos/young-woman-in-comfortable-combo.jpg?width=746&format=pjpg&exif=1&iptc=1"
+		},
+		{
+			"id": 25,
+			"title": "The Turtleneck",
+			"price": "119",
+			"category": "tops",
+			"description": "Featuring an elongated neckline, drapey sleeves, and an easy, relaxed fit, the Oversized Stroopwafel Turtleneck has a luxe waffle-knit texture with a super cozy feel. Plus, it’s made of our exclusive, 100% recycled cashmere yarn",
+			"image": "https://burst.shopifycdn.com/photos/woman-wearing-cream-top-and-pink-skirt.jpg?width=746&format=pjpg&exif=1&iptc=1"
+		},
+		{
+			"id": 26,
+			"title": "The Barrel",
+			"price": "149",
+			"category": "bags",
+			"description": "Made of premium Italian leather, the Studio Bag features functional details like an adjustable shoulder strap, a snap closure, and an interior and exterior pocket. Its roomy shape fits everything you need—plus all those just-in-case additions.",
+			"image": "https://images.unsplash.com/photo-1613482184972-f9c1022d0928?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGJhZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+		},
+		{
+			"id": 27,
+			"title": "The Hobo",
+			"price": "189",
+			"category": "bags",
+			"description": "Made from organically sourced prickly pear cactus, the Desserto® textile is our first plant-based material to be used as a leather alternative. Why cactus? It has a great CO2 sequestering capacity, acts like a natural carbon sink, uses zero irrigation, and naturally regenerates soil. Plus, 50% of the byproduct is redirected to the food industry and used to feed cattle.",
+			"image": "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YmFnfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+		},
+		{
+			"id": 28,
+			"title": "The Handbag",
+			"price": "129",
+			"category": "bags",
+			"description": "No pesticides. Nopales. Made from organic prickly pear, the Cactus Triangle Tote is as soft and durable as leather—–with a lower environmental footprint on the planet compared to traditional virgin leather. Featuring an interior slip pocket, it has plenty of room for your everyday essentials and then some.",
+			"image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFnfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+		},
+		{
+			"id": 29,
+			"title": "The Everything Bag",
+			"price": "119",
+			"category": "bags",
+			"description": "Two exterior catch-all pockets add a cool design feature while being large enough to fit a water bottle. An interior padded pocket fits most 15” laptops, while an interior zipper pocket is ideal for keeping smaller valuables safe. Wear it as a tote with the shorter handles, or crossbody with the longer strap. Made with 100% recycled polyester.",
+			"image": "https://images.unsplash.com/photo-1622560480654-d96214fdc887?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGJhZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+		}
+	]
 }
